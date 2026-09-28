@@ -301,7 +301,7 @@ button{
         display: none;
      }
 
-     .nav-right {
+     .navitems {
         width: 750px;
         justify-content: space-between;
         display: flex;
@@ -311,8 +311,8 @@ button{
 
          /* responsive code  */
          
-         @media(min-width:260px) and (max-width: 460px) {
-            .nav-right {
+         @media(min-width:260px) and (max-width:400px) {
+            .navitems {
                 border: 2px solid;
                 display: none;
 
@@ -321,7 +321,27 @@ button{
             .hamburger {
                 display: block;
                 font-size: 2rem;
+                margin-left: auto;
+                margin-right: 15px;
             }
+            .sec-one{
+                /* border: 2px solid; */
+                width: 100%;
+                /* text-align: center; */
+                min-height: 100vh;
+                background-size: cover;
+                background-position: center8;
+
+            }
+            .hero-content {
+                width: 100%;
+                text-align: center;
+                /* border: 2px solid; */
+            }
+            .hero-content > h1 {
+                font-size: 2rem;
+            }
+
             .banking-options-content {
                 width: 100%;
                 text-align: center;
